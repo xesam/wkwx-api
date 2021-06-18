@@ -1,0 +1,30 @@
+{
+  "name": "wkwx-api",
+  "version": "1.0.0",
+  "description": "企业微信api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xesam/wkwx-api.git"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "@xesam/config": "0.0.1",
+    "@xesam/token": "0.0.1"
+  },
+  "devDependencies": {
+    "json5": "2.1.3",
+    "async-each": "1.0.3",
+    "array-async-queue": "1.0.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xesam/wkwx-api/issues"
+  },
+  "homepage": "https://github.com/xesam/wkwx-api#readme"
+}
