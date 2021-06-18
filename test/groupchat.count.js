@@ -33,7 +33,7 @@ readFiles(['./groupchat.detail.json5'], {encoding: 'utf-8'})
     .then(json5.parse)
     .then(chats => {
         const oldest = _.minBy(chats, 'create_time');
-        const earliest = dayjs(oldest.create_time * 1000).startOf('day');
+        const earliest = dayjs.unix(oldest.create_time).startOf('day');
         const dates = getDates(earliest);
         const date_chats = chats.map(chat => {
             return count_chat(chat, dates);
