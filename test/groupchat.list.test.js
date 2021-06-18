@@ -1,6 +1,5 @@
 const json5 = require('json5');
 const writeFile = require('write-file-promise');
-const readFiles = require('read-files-promise');
 const groupchat = require('../src/externalcontact/groupchat');
 
 
